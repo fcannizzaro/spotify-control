@@ -23,7 +23,7 @@ View and Control your Spotify experience without leaving Sublime Text
 
 |         Key        |                   Description                   |
 |--------------------|-------------------------------------------------|
-| `sublimify_status` | set to **false** to diable status bar info      |  
+| `sublimify_status` | set to **false** to disable status bar info     |  
 
 
 ### Inspired by
