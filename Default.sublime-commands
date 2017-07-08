@@ -1,0 +1,36 @@
+[
+  {
+    "caption": "Sublimify: Play/Pause",
+    "command": "spotify_flow"
+  },
+  {
+    "caption": "Sublimify: Library Tracks",
+    "command": "spotify_flow",
+    "args": { "action": "tracks" }
+  },
+  {
+    "caption": "Sublimify: Library Refresh",
+    "command": "spotify_flow",
+    "args": { "action": "refresh" }
+  },
+  {
+    "caption": "Sublimify: Next Track",
+    "command": "spotify_flow",
+    "args": { "action": "next" }
+  },
+  {
+    "caption": "Sublimify: Previous Track",
+    "command": "spotify_flow",
+    "args": { "action": "previous" }
+  },
+  {
+    "caption": "Sublimify: Repeat Mode",
+    "command": "spotify_flow",
+    "args": { "action": "repeat" }
+  },
+  {
+    "caption": "Sublimify: Shuffle",
+    "command": "spotify_flow",
+    "args": { "action": "shuffle" }
+  } 
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "keys": ["ctrl+alt+b"],
+    "command": "spotify_flow",
+    "args": { "action": "tracks" }
+  },
+  {
+    "keys": ["ctrl+alt+p"],
+    "command": "spotify_flow"
+  },
+  {
+    "keys": ["ctrl+alt+l"],
+    "command": "spotify_flow",
+    "args": { "action": "next" }
+  },
+  {
+    "keys": ["ctrl+alt+j"],
+    "command": "spotify_flow",
+    "args": { "action": "previous" }
+  },
+  {
+    "keys": ["ctrl+alt+r"],
+    "command": "spotify_flow",
+    "args": { "action": "repeat" }
+  },
+  {
+    "keys": ["ctrl+alt+s"],
+    "command": "spotify_flow",
+    "args": { "action": "shuffle" }
+  }
+]

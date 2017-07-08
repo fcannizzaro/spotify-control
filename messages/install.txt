@@ -1,0 +1,27 @@
+
+     _______. __    __  .______    __       __  .___  ___.  __   _______ ____    ____ 
+    /       ||  |  |  | |   _  \  |  |     |  | |   \/   | |  | |   ____|\   \  /   / 
+   |   (----`|  |  |  | |  |_)  | |  |     |  | |  \  /  | |  | |  |__    \   \/   /  
+    \   \    |  |  |  | |   _  <  |  |     |  | |  |\/|  | |  | |   __|    \_    _/   
+.----)   |   |  `--'  | |  |_)  | |  `----.|  | |  |  |  | |  | |  |         |  |     
+|_______/     \______/  |______/  |_______||__| |__|  |__| |__| |__|         |__|     
+                                                                                      
+## Shortcuts
+
+CTRL + ALT + P  Play/Pause
+CTRL + ALT + L  Next Track
+CTRL + ALT + J  Previous Track
+CTRL + ALT + B  Browse Library Tracks
+CTRL + ALT + R  Select Repeat Mode
+CTRL + ALT + S  Toggle Shuffle
+
+## Status Bar
+
+"sublimify_status" : false
+
+to disable status bar info.
+
+## Inspired by
+
+Atomify of Jae Bradley
+
