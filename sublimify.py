@@ -2,6 +2,7 @@ import sublime_plugin
 import _thread as th
 import sublime
 import time
+
 from .py.api import api
 from .py.server import listen
 from .py.utils import settings, store, set_interval
@@ -52,7 +53,7 @@ def run(api):
     if not api.access_token:
         return listen(plugin_loaded)
 
-    if settings('sublimify_status') == True:
+    if settings('sublimify_status') in [True, None]:
       updating = set_interval(update, 3)
 
     refresh_library()   
