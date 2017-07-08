@@ -1,4 +1,4 @@
-# [Sublimify](https://atom.io/packages/atomify) (Where Sublime Meets Spotify)
+# [Sublimify](https://packagecontrol.io/packages/sublimify) (Where Sublime Meets Spotify)
 View and Control your Spotify experience without leaving Sublime Text
 
 ![icon](icon.png)
