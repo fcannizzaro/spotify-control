@@ -89,9 +89,6 @@ class Api():
         }
         return self.request('https://accounts.spotify.com/api/token', headers=AUTH_HEADERS, data=payload, method='POST', parse=True)
 
-    def me(self):
-        return self.req.get(ME).json()
-
     def tracks(self, offset):
         return self.request(ME+'tracks', params={'limit': 50, 'offset': offset}, parse=True)
 
