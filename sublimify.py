@@ -46,12 +46,14 @@ def refresh_library():
         settings('tracks', tracks)
 
 def run(api):
-  
+    
+    global updating
+
     if not api.access_token:
         return listen(plugin_loaded)
 
-    global updating
-    updating = set_interval(update, 3)
+    if settings('sublimify_status') == True:
+      updating = set_interval(update, 3)
 
     refresh_library()   
 
@@ -99,5 +101,5 @@ def plugin_loaded():
     th.start_new_thread(run, (api(),))
 
 def plugin_unloaded():
-    if 'updating' in globals():
+    if 'updating' in globals() and updating:
       updating.cancel()

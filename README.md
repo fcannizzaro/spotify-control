@@ -19,5 +19,12 @@ View and Control your Spotify experience without leaving Sublime Text
 | Browse Library      |  <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>B</kbd>  |
 | Refresh Library     |  -                                                | 
 
+### Settings
+
+|         Key        |                   Description                   |
+|--------------------|-------------------------------------------------|
+| `sublimify_status` | set to **false** to diable status bar info      |  
+
+
 ### Inspired by
 **[Atomify](https://github.com/jaebradley/atomify/)** of [Jae Bradley](https://github.com/jaebradley)

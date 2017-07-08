@@ -1,11 +1,11 @@
+import _thread as th
 import webbrowser
-import _thread
+import sublime
 
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib.parse import urlparse, parse_qs
 from .api import api
 from .utils import store
-import sublime
 
 AUTH = 'https://accounts.spotify.com/authorize/?client_id=da88d740c9ef4bf29a439171efba509f&response_type=code&redirect_uri=http://localhost:9999/callback&scope=user-read-playback-state user-modify-playback-state user-library-read'
 
@@ -20,7 +20,7 @@ class Server(BaseHTTPRequestHandler):
             store(spotify.authorize(query['code'][0]), True)
             spotify.reload()
             restart()
-            _thread.start_new_thread(sublime.message_dialog, ('Spotify <--> Sublime Text',))
+            th.start_new_thread(sublime.message_dialog, ('Spotify <--> Sublime Text',))
 
         self.send_response(200)
         self.send_header("Content-type", "text/html")
@@ -40,4 +40,4 @@ def start():
 def listen(plugin_loaded):
     global restart
     restart = plugin_loaded
-    _thread.start_new_thread(start, ())
+    th.start_new_thread(start, ())
