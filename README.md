@@ -9,15 +9,15 @@ View and Control your Spotify experience without leaving Sublime Text
 
 ### Commands / Shortcuts
 
-|       Command       |                      Shortcut                     |
-|---------------------|:-------------------------------------------------:|
-| Play/Pause          |  <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>P</kbd>  |  
-| Next Track          |  <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>L</kbd>  |
-| Previous Track      |  <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>J</kbd>  |
-| Toggle Shuffle      |  <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd>  |
-| Select Repeat Mode  |  <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>R</kbd>  |
-| Browse Library      |  <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>B</kbd>  |
-| Refresh Library     |  -                                                | 
+|       Command       |                        Shortcut                      |
+|---------------------|:----------------------------------------------------:|
+| Play/Pause          |  <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Space</kbd> |  
+| Next Track          |  <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>L</kbd>     |
+| Previous Track      |  <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>J</kbd>     |
+| Toggle Shuffle      |  <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd>     |
+| Select Repeat Mode  |  <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>R</kbd>     |
+| Browse Library      |  <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>B</kbd>     |
+| Refresh Library     |  -                                                   |  
 
 ### Settings
 

@@ -5,7 +5,7 @@
     "args": { "action": "tracks" }
   },
   {
-    "keys": ["ctrl+alt+p"],
+    "keys": ["ctrl+alt+space"],
     "command": "spotify_flow"
   },
   {

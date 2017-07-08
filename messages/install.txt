@@ -8,12 +8,12 @@
                                                                                       
 ## Shortcuts
 
-CTRL + ALT + P  Play/Pause
-CTRL + ALT + L  Next Track
-CTRL + ALT + J  Previous Track
-CTRL + ALT + B  Browse Library Tracks
-CTRL + ALT + R  Select Repeat Mode
-CTRL + ALT + S  Toggle Shuffle
+CTRL + ALT + SPACE  Play/Pause
+CTRL + ALT + L      Next Track
+CTRL + ALT + J      Previous Track
+CTRL + ALT + B      Browse Library Tracks
+CTRL + ALT + R      Select Repeat Mode
+CTRL + ALT + S      Toggle Shuffle
 
 ## Status Bar
 
