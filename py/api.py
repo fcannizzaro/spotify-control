@@ -97,7 +97,7 @@ class Api():
 
     def currently_playing(self):
         status = self.request(PLAYER, parse=True)
-        self.status['device'] = status['device']['is_active']
+        if not status: return self.status
         self.status['playing'] = status['is_playing']
         self.status['name'] = status['item']['name']
         self.status['repeat'] = status['repeat_state']

@@ -9,12 +9,8 @@ from .py.utils import settings, store, set_interval
 
 def update():
     status = api().currently_playing()
-    if 'device' in status:
-        for view in sublime.active_window().views():
-            if status['device']:
-              view.set_status('spotify', ' [%s] %s ♫ ' % (status['artist'], status['name']))
-            else:
-                view.set_status('spotify', ' Spotify Closed ♫ ')
+    for view in sublime.active_window().views():
+      view.set_status('spotify', ' [%s] %s ♫ ' % (status['artist'], status['name']))
 
 def on_track_selected(index):
     if index < 0: return
