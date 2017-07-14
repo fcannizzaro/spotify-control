@@ -1,4 +1,4 @@
-# [Sublimify](https://packagecontrol.io/packages/sublimify) (Where Sublime Meets Spotify)
+# [spotify-control](https://packagecontrol.io/packages/spotify-control) (Where Sublime Meets Spotify)
 View and Control your Spotify experience without leaving Sublime Text
 
 ![icon](icon.png)
@@ -23,7 +23,7 @@ View and Control your Spotify experience without leaving Sublime Text
 
 |         Key        |                   Description                   |
 |--------------------|-------------------------------------------------|
-| `sublimify_status` | set to **false** to disable status bar info     |  
+| `spotify_status` | set to **false** to disable status bar info     |  
 
 
 ### Inspired by

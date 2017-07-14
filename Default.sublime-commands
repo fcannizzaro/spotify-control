@@ -1,35 +1,35 @@
 [
   {
-    "caption": "Sublimify: Play/Pause",
+    "caption": "Spotify: Play/Pause",
     "command": "spotify_flow"
   },
   {
-    "caption": "Sublimify: Library Tracks",
+    "caption": "Spotify: Library Tracks",
     "command": "spotify_flow",
     "args": { "action": "tracks" }
   },
   {
-    "caption": "Sublimify: Library Refresh",
+    "caption": "Spotify: Library Refresh",
     "command": "spotify_flow",
     "args": { "action": "refresh" }
   },
   {
-    "caption": "Sublimify: Next Track",
+    "caption": "Spotify: Next Track",
     "command": "spotify_flow",
     "args": { "action": "next" }
   },
   {
-    "caption": "Sublimify: Previous Track",
+    "caption": "Spotify: Previous Track",
     "command": "spotify_flow",
     "args": { "action": "previous" }
   },
   {
-    "caption": "Sublimify: Repeat Mode",
+    "caption": "Spotify: Repeat Mode",
     "command": "spotify_flow",
     "args": { "action": "repeat" }
   },
   {
-    "caption": "Sublimify: Shuffle",
+    "caption": "Spotify: Shuffle",
     "command": "spotify_flow",
     "args": { "action": "shuffle" }
   } 

@@ -49,7 +49,7 @@ def run(api):
     if not api.access_token:
         return listen(plugin_loaded)
 
-    if settings('sublimify_status') in [True, None]:
+    if settings('spotify_status') in [True, None]:
       updating = set_interval(update, 3)
 
     refresh_library()   

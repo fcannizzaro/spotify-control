@@ -24,7 +24,14 @@ class Api():
         self.refresh_token = settings('refresh_token')
         self.expires_in = settings('expires_in') or 0
         self.headers = {'Authorization': 'Bearer %s' % settings('access_token')}
-        self.status = {}
+        self.status = {
+            'playing': False,
+            'name': 'No Track',
+            'artist': 'No Artist',
+            'repeat': False,
+            'shuffle': False,
+        }
+        
         if self.access_token:
             self.currently_playing()
 
@@ -72,7 +79,8 @@ class Api():
             
             return json.loads(res.decode()) if parse else res.decode()
 
-        except Exception:
+        except Exception as e:
+            print(e)
             return None
 
     def refresh(self):   
